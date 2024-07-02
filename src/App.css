@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.background{
+  background-image: url("https://res.cloudinary.com/dx0fji5gh/image/upload/v1676609173/foodimg_ewybyl.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+
+}
+.bgnext{
+  height:20vh;
+  width: 100vw;
+  background-position:center ;
+}
+.inputitem{
+  /* width: auto; */
+  border-width: 2px solid green;
+  outline: none;
+}
+.input_align{
+  margin-top: 45vh;
+}
+.inputitem:active{
+  background-color:rgb(142, 199, 142);
+  border-width: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nuetrients li{
+  list-style-type: none;
+  /* width: 35rem; */
+  color: rgb(255, 187, 0);
+  font-size: smaller;
+  background-color: aliceblue;
+  padding :10px;
+  margin:10px;
 }
+.nuetrients{
+padding :20px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+background-color: #9f9;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.food_image{
+  width: 25vw;
+  height: 100%;
+  border-radius: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.align-right{
+  align-items: end;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card_border{
+  border: 20px solid #fb20fb;
+}
+.btn:hover{
+  cursor: url(egg.png),auto;
 }
