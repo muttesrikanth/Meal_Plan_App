@@ -1,3 +1,16 @@
+# Meal Plan App
+
+## Description
+
+This Meal Plan App is designed to help you plan your meals according to your desired calorie intake. The app provides corresponding recipes, allowing you to view ingredients and cooking instructions. The Spoonacular API is used to fetch the recipe data.
+
+## Features
+
+- **Calorie Input:** Enter the number of calories you want for your meal.
+- **Nutritional Information:** Displays the carbohydrate, protein, and fat content for each meal.
+- **Responsive Design:** The app is optimized for different screen sizes, ensuring a seamless user experience across various devices.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
